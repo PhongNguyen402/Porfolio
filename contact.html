@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .main-btn{
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+            padding: 18px 65px;
+        }
+        .main-btn:hover{
+            color: grey;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <picture>
+        <source media="(min-width:650px)" srcset="img/desktop.png">
+        <source media="(min-width:465px)" srcset="img/tablet.png">
+        <img src="img/Contact.svg" alt="Contact">
+    </picture>
     <h1>Contact</h1>
+    <form>
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="HCIH" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send" class="main-btn boder-none">
+    </form>
 </body>
 </html>

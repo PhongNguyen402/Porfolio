@@ -1,14 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>My Porfolio</h1>
-    <p>My main focuses are HTML, CSS, JS, React</p>
-    <p>My name</p>
+    <nav class="top-menu">
+        <a href="contact.html">Contact</a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><img src="img/cat.svg" alt="Cat"></a>
+        <!-- dung font awe cho net va nhe, doi mau de dang -->
+        <form>
+            <select name="social" id="social">
+                <option value="Share">Share</option>
+            </select>
+        </form>
+    </nav>
+    <main class="flex-container">
+        <nav>
+            <div class="center">
+                <img src="img/profile-image.png" alt="profile image" class="margin-top-50"><br>
+                <p><b> My name</b></p>
+                <a href="mailto:myemail@gmail.com">myemail@gmail.com</a>
+                <button type="button" class="boder-none transparent"><i class="fas fa-clone"></i></button>
+            </div>
+            <a href="index.html" class="menu-item-active"><img src="img/vali.svg"> My Portfolio</a>
+            <a href="aboutme.html"><img src="img/hinhnguoi.svg">About me</a>
+        </nav>
+        <section>
+            <header>
+                <h1>My <span style="color: red;">Porfolio</span></h1>
+                <p>My main focuses are <b>HTML, CSS, JS, React</b></p>
+                <form>
+                    <input type="search" name="search" placeholder="Search" class="boder-none">
+                    <input type="image" src="img/kinhlup.svg" alt="Search">
+                </form>
+            </header>
+            <main>
+                <a href="#ecommerce">#ecommerce</a>
+                <a href="#technology">#technology</a>
+                <a href="#entertainment">#entertainment</a>
+                <section class="flex-container">
+                    <h3 id="ecommerce">#ecommerce</h3>
+                    <div class="flex-container flex-wrap">
+                        <article>
+                            <img src="img/1.png" alt="Nordic Coder">
+                            <p><b>Nordic Coder</b></p>
+                            <p class="grey"><i>HTML, CSS, JS, React</i></p>
+                        </article>
+                        <article>
+                            <img src="img/2.svg" alt="Nordic Coder">
+                            <p><b>Raidius</b></p>
+                            <p class="grey"><i>HTML, CSS, JS, React</i></p>
+                        </article>
+                        <article>
+                            <img src="img/2.svg" alt="Nordic Coder">
+                            <p><b>Raidius</b></p>
+                            <p class="grey"><i>HTML, CSS, JS, React</i></p>
+                        </article>
+                        <article>
+                            <img src="img/2.svg" alt="Nordic Coder">
+                            <p><b>Raidius</b></p>
+                            <p class="grey"><i>HTML, CSS, JS, React</i></p>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h3 id="technology">#technology</h3>
+                    <img src="img/1.png" alt="Nordic Coder">
+                    <img src="img/2.svg" alt="Raidius">
+                    <img src="img/1.png" alt="Nordic Coder">
+                    <img src="img/2.svg" alt="Raidius">
+                    <img src="img/1.png" alt="Nordic Coder">
+                    <img src="img/2.svg" alt="Raidius">
+                    <img src="img/1.png" alt="Nordic Coder">
+                    <img src="img/2.svg" alt="Raidius">
+                    <img src="img/2.svg" alt="Raidius">
+                </section>
+                <section>
+                    <h3 id="entertainment">#entertainment</h3>
+                    <img src="img/1.png" alt="Nordic Coder">
+                    <img src="img/2.svg" alt="Raidius">
+                    <img src="img/1.png" alt="Nordic Coder">
+                </section>
+            </main>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2020 Your Name. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
